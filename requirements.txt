@@ -1,9 +1,8 @@
 streamlit
-numpy<2
+numpy
 pandas
 plotly
 astropy
 scipy
 numba
 matplotlib
-poliastro
