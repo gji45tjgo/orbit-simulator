@@ -504,7 +504,7 @@ with tab4:
     st.subheader("Автор")
     st.markdown("""
     **Шешуков Павел**  
-    [GitHub](https://github.com/твой-юзернейм)  
+    [GitHub](https://github.com/gji45tjgo/orbit-simulator)  
     [📧 Написать на почту](https://mail.yandex.ru/compose?to=pasha.pavel169@yandex.ru)
     """)
 
