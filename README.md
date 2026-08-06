@@ -23,10 +23,12 @@
 
 ### Локально
 
+```bash
 git clone https://github.com/gji45tjgo/orbit-simulator.git
 cd orbit-simulator
 pip install -r requirements.txt
 streamlit run main.py
+```
 
 ### Онлайн
 
