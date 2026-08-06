@@ -1,6 +1,9 @@
 streamlit
-numpy
+numpy==2.4.6
 pandas
-plotly
-astropy
-poliastro
+plotly==5.24.1
+astropy==5.3.4
+scipy==1.17.1
+numba==0.66.0
+matplotlib==3.11.1
+git+https://github.com/poliastro/poliastro.git@main
