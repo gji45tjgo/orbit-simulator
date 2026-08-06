@@ -6,3 +6,4 @@ astropy
 scipy
 numba
 matplotlib
+git+https://github.com/poliastro/poliastro.git@main
