@@ -1,3 +1,15 @@
+import subprocess
+import sys
+
+try:
+    import poliastro
+except ImportError:
+    subprocess.check_call([
+        sys.executable, "-m", "pip", "install",
+        "https://github.com/poliastro/poliastro/archive/main.zip"
+    ])
+    import poliastro
+
 from astropy import units as u
 from poliastro.bodies import Earth, Mars, Sun, Moon, Venus, Mercury, Jupiter, Saturn, Uranus, Neptune
 from poliastro.twobody import Orbit
